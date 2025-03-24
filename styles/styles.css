@@ -249,7 +249,6 @@ body {
 
 /*Flash Sales */
 .flash-sales-section {
-  width: 91%;
   display: flex;
   flex-direction: column;
   margin-left: auto;
@@ -262,8 +261,12 @@ body {
 }
 
 .flash-sales-header {
-  max-width: 117rem;
   width: 81.25%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 6rem;
+  font-weight: 600;
 }
 
 .time-box {
@@ -334,8 +337,11 @@ body {
 
 .flesh-sales-cards {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 27rem);
   gap: 3rem;
+  max-width: 131rem;
+  margin-left: 13.5rem;
+  overflow: hidden;
 }
 
 /*categories*/
